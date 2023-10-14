@@ -1,0 +1,41 @@
+.usersData {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: 2.5vw;
+}
+
+.name {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  margin: auto;
+}
+
+.email {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+}
+
+h2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 4vw;
+}
+
+.text {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

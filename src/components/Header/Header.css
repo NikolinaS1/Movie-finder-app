@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.headerTitle {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5vw;
+  margin-left: 100px;
+  flex: 1; /* Grow to take available space */
+  text-align: center; /* Center the text within its flex container */
+}
+
+.login-btn {
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}

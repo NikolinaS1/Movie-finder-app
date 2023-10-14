@@ -1,0 +1,76 @@
+.Auth-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  border-radius: 10px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem 1rem 2rem;
+  background: white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+  color: #000;
+  margin: auto;
+}
+
+.Auth-form-title {
+  font-size: 2vw;
+  font-weight: 800;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Arrange elements in a column */
+  margin: 15px 30px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1vw;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.submit {
+  background-color: #0275d8;
+  border: none;
+  color: #fff;
+  margin-bottom: 15px;
+  padding: 9px;
+  width: 100%;
+  margin: 0 30px;
+  cursor: pointer;
+  font-size: 1.3vw;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.registration {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
